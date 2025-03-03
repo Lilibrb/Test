@@ -1,0 +1,83 @@
+
+    
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    width:100%; 
+}
+
+.carte {
+    width: 40rem;
+    height: fit-content;
+    background-color: #1b739e;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    padding: 2rem 20px 3rem 20px;
+}
+
+ img {
+    width: 50%;
+    height:50%;
+    object-fit: cover;
+    
+}
+
+
+.details {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    border:none;
+}
+
+
+.titreCarte{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap:3rem;
+    border:none;
+}
+
+div{
+    height:100%;
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    border-bottom: solid 6px black;
+}
+div h1{
+    font-size: 40px;
+    margin: 3rem 0 0 0;
+}
+
+div>p,li{
+    color:white;
+    font-size: 30px;
+    margin: 3rem 0 0.5rem 0;
+    list-style: none;
+    line-height: 1rem;
+}
+
+#switch{
+    position: fixed;
+  }
+
+button{
+    font-size: 1.5rem;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+  }
+
+
